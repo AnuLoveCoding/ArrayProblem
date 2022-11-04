@@ -2,24 +2,36 @@ import java.util.Scanner;
 
 public class pb2 {
 
+
+//    public  static int  product(int a ,int b, int c) {
+//        return a*b*c;
+//    }
+
     //find the nCr value;
-    public static int  factorial(int n ) {
-        int fact =1;
-        for (int i = 1; i <= n; i++) {
-            fact*=i;
-        }
-        return  fact;
-    }
+//    public static int  factorial(int n ) {
+//        int fact =1;
+//        for (int i = 1; i <= n; i++) {
+//            fact*=i;
+//        }
+//        return  fact;
+//    }
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter Your Number 1");
-        int n = scn.nextInt();
-        System.out.println("Enter Your Number 2");
-        int r = scn.nextInt();
+//        System.out.println("Enter Your Number 1");
+//        int a = scn.nextInt();
+//        System.out.println("Enter Your Number 2");
+//        int b = scn.nextInt();
+//        System.out.println("Enter Your Number 3");
+//        int c = scn.nextInt();
+//
+////            product(2,5,3);
+//        int ans = product(a,b,c);
+//        System.out.println("The product of "+ans);
 
-        double ans = (double) factorial(n) / factorial(n-r) *factorial(r);
-        System.out.println("The value of nCr : "+ ans);
+        // nCr value factorial called;
+//        double ans = (double) factorial(n) / factorial(n-r) *factorial(r);
+//        System.out.println("The value of nCr : "+ ans);
 
 //        int[]arr = {10,20,30,40,50};
 //
