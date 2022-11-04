@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class pb3 {
@@ -19,7 +19,7 @@ public class pb3 {
 
             for (int j : arr) sum += j;
 
-            double  ans  = (double) sum/arr.length;
+            double  ans  =  sum/arr.length;
             System.out.println(ans);
 
 
