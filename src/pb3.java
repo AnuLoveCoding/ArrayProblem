@@ -8,11 +8,14 @@ public class pb3 {
 
         int [] arr = new int[n];
 
-        System.out.println("Enter number for+ "+n+"+ arr storeing;");
-        for (int i = 0; i < n ; i++) {
+        System.out.println("Enter number for "+ n +" arr storeing;");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i]= scn.nextInt();
+        }
 
-            arr[i] = scn.nextInt();
-            System.out.print(arr[i]+" ");
+        System.out.println("Here are your Output");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
 
 
