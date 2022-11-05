@@ -28,8 +28,8 @@ public class pb4 {
 //    }
 
 //    Q.3
-    public static  boolean consecutive(int[] arr ){
-        for (int i = 0; i <arr.length ; i++) {
+    public static  boolean consecutive(int[] arr){ //consecutive means side by side duplicate;
+        for (int i = 0; i < arr.length-1 ; i++) {
             if(arr[i]==arr[i+1]){
                 return true;
             }
@@ -38,7 +38,7 @@ public class pb4 {
     }
 
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+//        Scanner scn = new Scanner(System.in);
 //        System.out.println("Enter Your Number");
 //        int n = scn.nextInt();
 //        int [] arr = new int[n];
@@ -59,7 +59,7 @@ public class pb4 {
 
 
 //        Q.3;
-          int [] arr = {4, 19,19,8};
+          int [] arr = {4,19,117,8,81,114 ,56 ,98};
           System.out.println(consecutive(arr));
 
 
