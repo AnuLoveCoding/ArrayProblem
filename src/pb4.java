@@ -28,14 +28,14 @@ public class pb4 {
 //    }
 
 //    Q.3
-    public static  boolean consecutive(int[] arr){ //consecutive means side by side duplicate;
-        for (int i = 0; i < arr.length-1 ; i++) {
-            if(arr[i]==arr[i+1]){
-                return true;
-            }
-        }
-        return false;
-    }
+//    public static  boolean consecutive(int[] arr){ //consecutive means side by side duplicate;
+//        for (int i = 0; i < arr.length-1 ; i++) {
+//            if(arr[i]==arr[i+1]){
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 
     public static void main(String[] args) {
 //        Scanner scn = new Scanner(System.in);
@@ -59,8 +59,8 @@ public class pb4 {
 
 
 //        Q.3;
-          int [] arr = {4,19,117,8,81,114 ,56 ,98};
-          System.out.println(consecutive(arr));
+//          int [] arr = {4,19,117,8,81,114 ,56 ,98};
+//          System.out.println(consecutive(arr));
 
 
     }
