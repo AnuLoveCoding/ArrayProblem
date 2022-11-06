@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
 public class pb5 {
+//    Q.7
+//public static String arri(int [] arr){
+//    String store ="";
+//    for (int i = 0; i <arr.length ; i++) {
+//        if(arr[i]<0){
+//            store += arr[i]+",";
+//        }
+//    }
+//    return store;
+//}
 //    Q.5
 //    public static int arr_sum(int[] arr){
 //        int sum = 0;
@@ -8,6 +18,15 @@ public class pb5 {
 //            sum+=arr[i];
 //        }
 //        return sum;
+//    }
+
+//     Q.6
+//     public static int product(int [] arr) {
+//        int prod =1;
+//        for (int i = 0; i <arr.length ; i++) {
+//            prod*=arr[i];
+//        }
+//        return prod;
 //    }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -68,25 +87,37 @@ public class pb5 {
 //        System.out.println(sum);
 
 //        Q.6 Write a program that returns the product of all elements present in the list.
+//        System.out.println("Enter Your arr size");
+//        int n = scn.nextInt();
+//        int [] arr = new int[n];
+//
+//        System.out.println("Enter Your arr value");
+//        for (int i = 0; i <arr.length ; i++) {
+//            arr[i] =scn.nextInt();
+//        }
+//
+//        System.out.println("Function return your product "+product(arr));
+
+//        Q.7 Write a program to print all negative numbers from input array A of size N.
+//        Take integer N and N elements of the array as input from user. Input 1: (5 1 -5 2 -8 -4);
         System.out.println("Enter Your arr size");
-        int n = scn.nextInt();
-        int [] arr = new int[n];
+          int n = scn.nextInt();
+          int [] arr = new int[n];
 
         System.out.println("Enter Your arr value");
         for (int i = 0; i <arr.length ; i++) {
-            arr[i] =scn.nextInt();
+            arr[i] = scn.nextInt();
         }
 
-        System.out.println("Function return your product "+product(arr));
-
-    }
-
-
-    public static int product(int [] arr) {
-        int prod =1;
+        String store ="";
         for (int i = 0; i <arr.length ; i++) {
-            prod*=arr[i];
+            if(arr[i]<0){
+                store += arr[i]+",";
+            }
         }
-        return prod;
+        System.out.println("New Array of "+"["+store+"]");
+//        System.out.println("Function return new negative array "+"["+arri(arr)+"]");
+
+
     }
 }
