@@ -98,26 +98,54 @@ public class pb5 {
 //
 //        System.out.println("Function return your product "+product(arr));
 
-//        Q.7 Write a program to print all negative numbers from input array A of size N.
+//        (Q.7) Write a program to print all negative numbers from input array A of size N.
 //        Take integer N and N elements of the array as input from user. Input 1: (5 1 -5 2 -8 -4);
-        System.out.println("Enter Your arr size");
-          int n = scn.nextInt();
-          int [] arr = new int[n];
-
-        System.out.println("Enter Your arr value");
-        for (int i = 0; i <arr.length ; i++) {
-            arr[i] = scn.nextInt();
-        }
-
-        String store ="";
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i]<0){
-                store += arr[i]+",";
-            }
-        }
-        System.out.println("New Array of "+"["+store+"]");
+//        System.out.println("Enter Your arr size");
+//          int n = scn.nextInt();
+//          int [] arr = new int[n];
+//
+//        System.out.println("Enter Your arr value");
+//        for (int i = 0; i <arr.length ; i++) {
+//            arr[i] = scn.nextInt();
+//        }
+//
+//        String store ="";
+//        for (int i = 0; i <arr.length ; i++) {
+//            if(arr[i]<0){
+//                store += arr[i]+",";
+//            }
+//        }
+//        System.out.println("New Array of "+"["+store+"]");
 //        System.out.println("Function return new negative array "+"["+arri(arr)+"]");
+
+//        (Q.8) You are given a constant array A and an integer B.
+//           You are required to return another array where outArr[i] = A[i] + B.
+
+//           System.out.println("Enter Your arr size");
+//            int  n= scn.nextInt();
+//            int [] arr = new int[n];
+//
+//            System.out.println("Enter Your arr value");
+//            for (int i = 0; i <arr.length ; i++) {
+//                arr[i] = scn.nextInt();
+//            }
+//
+//            System.out.println("Enter your new value to add");
+//            int b = scn.nextInt();
+//
+//            int [] A = new int[arr.length];
+//
+//            for (int i = 0; i <arr.length ; i++) {
+//                A[i] = arr[i] +b;
+//            }
+//
+//            String store = "";
+//            for (int i = 0; i <A.length ; i++) {
+//                store+=A[i]+",";
+//            }
+//            System.out.println("This is Your new Dupicate array "+"["+store+"]");
 
 
     }
+
 }
