@@ -178,8 +178,33 @@ public class pb5 {
 //              T--;
 //          }
 
-//        (Q.10)
+//        (Q.10) Write a program to find the difference between the sum of all even elements
+//        and the sum of all odd elements from the given list.
+        System.out.println("Enter Your arr size");
+         int n = scn.nextInt();
+         int [] ls = new int[n];
 
+
+        System.out.println("Enter Your arr value");
+        for (int i = 0; i <ls.length ; i++) {
+            ls[i] = scn.nextInt();
+        }
+
+        int sum_even = 0, sum_odd =0 ;
+
+        for (int i = 0; i <ls.length ; i++) {
+            if(ls[i]%2==0){
+                sum_even+=ls[i];
+            }else{
+                sum_odd+=ls[i];
+            }
+        }
+
+        if(sum_even>sum_odd){
+            System.out.println(sum_even-sum_odd);
+        }else {
+            System.out.println(sum_odd -sum_even);
+        }
 
 
     }
