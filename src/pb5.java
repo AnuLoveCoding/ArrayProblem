@@ -145,6 +145,42 @@ public class pb5 {
 //            }
 //            System.out.println("This is Your new Dupicate array "+"["+store+"]");
 
+//        (Q.9) You are given T(number of test cases) integer arrays.
+//        For each array A, you have to find the value of absolute difference
+//        between the counts of even and odd elements in the array.
+//        System.out.println("Enter Your Test case Value");
+//          int T = scn.nextInt();
+//
+//          while(T>0){
+//              System.out.println("Enter Your arr size");
+//              int n = scn.nextInt();
+//              int [] arr = new int[n];
+//
+//              System.out.println("Enetr Your arr value");
+//              for (int i = 0; i <arr.length ; i++) {
+//                  arr[i] = scn.nextInt();
+//              }
+//
+//              int count_even = 0 ,count_odd=0;
+//
+//              for (int j : arr) {
+//                  if (j % 2 == 0) {
+//                      count_even++;
+//                  } else {
+//                      count_odd++;
+//                  }
+//              }
+//              if(count_even > count_odd){
+//                  System.out.println(count_even-count_odd);
+//              }else{
+//                  System.out.println(count_odd-count_even);
+//              }
+//              T--;
+//          }
+
+//        (Q.10)
+
+
 
     }
 
