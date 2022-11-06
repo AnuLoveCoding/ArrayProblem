@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class pb4 {
 //    Q.1
 //    public static boolean Search_value(int[] arr , int k) {
-//           int ans = arr.length;
-//        for (int i = 0; i < ans; i++) {
+//
+//        for (int i = 0; i <arr.length; i++) {
 //            if(arr[i]==k){
 //                System.out.println(i);
 //                return  true;
@@ -37,16 +37,26 @@ public class pb4 {
 //        return false;
 //    }
 
-    public static void main(String[] args) {
-//        Scanner scn = new Scanner(System.in);
-//        System.out.println("Enter Your Number");
-//        int n = scn.nextInt();
-//        int [] arr = new int[n];
+    public static  int arr_sum(int [] arr ){
+        int sum =0;
+        for (int i = 0; i < arr.length ; i++) {
+            sum+=arr[i];
+        }
+        return sum;
+    }
 
-//        System.out.println("Enter Your arr Value");
-//        for (int i = 0; i < arr.length ; i++) {
-//            arr[i] = scn.nextInt();
-//        }
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter Your Number");
+        int n = scn.nextInt();
+        int [] arr = new int[n];
+
+        System.out.println("Enter Your arr Value");
+        for (int i = 0; i < arr.length ; i++) {
+            arr[i] = scn.nextInt();
+        }
+
+        System.out.println(arr_sum(arr));
 //        Q.1;
 //        int k = 12;
 //         int [] arr = {20,15,12,6,10};
