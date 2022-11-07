@@ -36,6 +36,23 @@ public class pb6 {
 //        return false;
 //    }
 
+//    (Q.4)
+    public static int [] min_max(int [] arr ){
+        int max = arr[0];
+        int min = arr[0];
+
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]>max){
+                max = arr[i];
+            }
+            if(arr[i]<min){
+                min = arr[i];
+            }
+        }
+        int [] A = {max,min};
+        return A;
+    }
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 //        System.out.println("Enter Your arr size");
@@ -97,6 +114,26 @@ public class pb6 {
 //            }
 //        }
 //        System.out.println(consecutive(arr));
+
+//        (Q.4) find the max,min in arr ;
+//        System.out.println("Enter Your arr size");
+//        int  n = scn.nextInt();
+//
+//        int [] arr = new int[n];
+//
+//        System.out.println("Enter Your arr value");
+//        for (int i = 0; i <arr.length ; i++) {
+//            arr[i] = scn.nextInt();
+//        }
+//
+//        int[]  ans = min_max(arr);
+//
+//        System.out.println("Min = "+ans[0]);
+//        System.out.println("Max = "+ans[1]);
+
+
+
+
 
 
     }
