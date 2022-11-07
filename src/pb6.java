@@ -160,6 +160,55 @@ public class pb6 {
 //            System.out.println();
 //        }
 
+//        (Q.6) sum of Two arrays ;
+
+        System.out.println("Enter Your arr1 size");
+        int  n1 = scn.nextInt();
+        int [] arr1 = new int[n1];
+        System.out.println("Enter Your arr1 value");
+        for (int i = 0; i <arr1.length ; i++) {
+            arr1[i] = scn.nextInt();
+        }
+
+        System.out.println("Enter Your arr2 size");
+        int  n2 = scn.nextInt();
+        int [] arr2 = new int[n2];
+        System.out.println("Enter Your arr value");
+        for (int i = 0; i <arr2.length ; i++) {
+            arr2[i] = scn.nextInt();
+        }
+
+        int [] sum = new int [Math.max(n1, n2)]; //[n1>n2 ? n1 : n2];
+        int c =0 ;
+
+        int  i = arr1.length-1;
+        int j = arr2.length-1;
+        int  k= sum.length-1;
+
+        while(k>= 0){
+            int d =c;
+            if(i>=0){
+                d+=arr1[0];
+            }
+            if(j>=0){
+                d+=arr2[0];
+            }
+             c= d/10;
+            d = d%10;
+
+            sum[k] =d;
+            i--;
+            j--;
+            k--;
+        }
+        if()
+
+
+
+
+
+
+
 
 
     }
