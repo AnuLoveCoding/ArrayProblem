@@ -37,21 +37,21 @@ public class pb6 {
 //    }
 
 //    (Q.4)
-    public static int [] min_max(int [] arr ){
-        int max = arr[0];
-        int min = arr[0];
-
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i]>max){
-                max = arr[i];
-            }
-            if(arr[i]<min){
-                min = arr[i];
-            }
-        }
-        int [] A = {max,min};
-        return A;
-    }
+//    public static int [] min_max(int [] arr ){
+//        int max = arr[0];
+//        int min = arr[0];
+//
+//        for (int i = 0; i <arr.length ; i++) {
+//            if(arr[i]>max){
+//                max = arr[i];
+//            }
+//            if(arr[i]<min){
+//                min = arr[i];
+//            }
+//        }
+//        int [] A = {max,min};
+//        return A;
+//    }
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -131,8 +131,34 @@ public class pb6 {
 //        System.out.println("Min = "+ans[0]);
 //        System.out.println("Max = "+ans[1]);
 
-
-
+//        (Q.5) Bar-chart print question;
+//        System.out.println("Enter Your arr size");
+//        int  n = scn.nextInt();
+//
+//        int [] arr = new int[n];
+//
+//        System.out.println("Enter Your arr value");
+//        for (int i = 0; i <arr.length ; i++) {
+//            arr[i] = scn.nextInt();
+//        }
+//
+//        int max = arr[0] ;
+//        for (int i = 0; i <arr.length ; i++) {
+//           if(arr[i]>max){
+//               max = arr[i];
+//           }
+//        }
+//
+//        for (int floor = max; floor>=1 ; floor--) {
+//            for (int i = 0; i <arr.length ; i++) {
+//                if(arr[i]>=floor){
+//                    System.out.print("*\t");
+//                }else{
+//                    System.out.print("\t");
+//                }
+//            }
+//            System.out.println();
+//        }
 
 
 
