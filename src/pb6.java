@@ -25,6 +25,17 @@ public class pb6 {
 //        return count;
 //    }
 
+//    (Q.3) find the consecutive duplicate number ;
+//    public static boolean consecutive(int []  arr) {
+//
+//        for (int i = 0; i <arr.length-1 ; i++) {
+//            if(arr[i]==arr[i+1]){
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 //        System.out.println("Enter Your arr size");
@@ -68,7 +79,24 @@ public class pb6 {
 
 //        System.out.println(frequency(arr,k));
 
-//        (Q.3) find the consequent number ;
+//        (Q.3) find the consecutive duplicate number ;
+//        System.out.println("Enter Your arr size");
+//        int  n = scn.nextInt();
+
+//        int [] arr = new int[n];
+
+//        System.out.println("Enter Your arr value");
+//        for (int i = 0; i <arr.length ; i++) {
+//            arr[i] = scn.nextInt();
+//        }
+
+
+//        for (int i = 0; i <arr.length-1 ; i++) {
+//             if(arr[i]==arr[i+1]){
+//                System.out.println("Yes");
+//            }
+//        }
+//        System.out.println(consecutive(arr));
 
 
     }
