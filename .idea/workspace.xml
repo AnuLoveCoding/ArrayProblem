@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec3f572-e8ae-4c00-a741-2a3dd51388ae" name="Changes" comment="git commit -m &quot;ArrayProblem&quot;">
+      <change afterPath="$PROJECT_DIR$/src/problem7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pb6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pb6.java" afterDir="false" />
     </list>
@@ -42,14 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pb6">
-    <configuration name="pb2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pb2" />
-      <module name="ArrayProblem" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.problem7">
     <configuration name="pb3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pb3" />
       <module name="ArrayProblem" />
@@ -78,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem7" />
+      <module name="ArrayProblem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.problem7" />
         <item itemvalue="Application.pb6" />
         <item itemvalue="Application.pb5" />
         <item itemvalue="Application.pb4" />
         <item itemvalue="Application.pb3" />
-        <item itemvalue="Application.pb2" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667833959650</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="git commit -m &quot;ArrayProblem&quot;">
+      <created>1667843987697</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667843987697</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
