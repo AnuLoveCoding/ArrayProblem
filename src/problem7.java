@@ -5,12 +5,30 @@ public class problem7 {
     public static boolean check_increasing(int [] arr){
         for (int i = 0; i <arr.length-1 ; i++) {
             if(arr[i] < arr[i+1]){
-                continue;
+                continue; // you can skip to continue
             } else  {
                 return false;
             }
         }
         return true;
+    }
+//    (Q.2) find the single element in arr1;
+    public static int single_element(int [] arr1){
+
+        for (int i = 0; i < arr1.length ; i++) {
+            int val = arr1[i];
+            int freq = 0;
+            for (int j = 0; j < arr1.length ; j++) {
+                if(arr1[j]==val){
+                    freq++;
+                }
+            }
+            if(freq==1){
+                return val;
+            }
+        }
+
+        return -1;
     }
     public static void main(String[] args) {
         Scanner  scn = new Scanner(System.in);
@@ -18,7 +36,10 @@ public class problem7 {
         int [] arr = {1,2,3,4,5,6,7,8,9,};
         System.out.println(check_increasing(arr));
 
-//        (Q.2)
+//        (Q.2) given an array
+
+        int [] arr1 = {3,9,14,16,3,14,16};
+
 
     }
 }
