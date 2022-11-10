@@ -56,7 +56,7 @@ public class problem8 {
         /* (Q.3) Given an integer array A, find the inverse of the array A and return it.
          All the elements of the given array are distinct and elements of the array lie in the range [0, |A|).
          */
-         System.out.println("Enter Your arr size ");
+       /* System.out.println("Enter Your arr size ");
          int n = scn.nextInt();
          int [] arr = new int[n];
          int [] arr1 = new int [arr.length]; // New arr of same value arr1;
@@ -74,7 +74,10 @@ public class problem8 {
         System.out.println("New indexing value ");
         for (int i = 0; i < arr1.length ; i++) {
             System.out.print(arr1[i]+" ");
-        }
+        } */
+
+//        (Q.4)
+
 
 
     }
