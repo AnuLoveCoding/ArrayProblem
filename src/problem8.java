@@ -33,7 +33,7 @@ public class problem8 {
               integer X and print the array by deleting element at specified position X.
          */
 
-        System.out.println("Enter Your arr size");
+        /* System.out.println("Enter Your arr size");
         int n = scn.nextInt();
         int [] arr = new int[n];
 
@@ -51,6 +51,29 @@ public class problem8 {
             }else{
                 System.out.print(arr[i]+" ");
             }
+        } */
+
+        /* (Q.3) Given an integer array A, find the inverse of the array A and return it.
+         All the elements of the given array are distinct and elements of the array lie in the range [0, |A|).
+         */
+         System.out.println("Enter Your arr size ");
+         int n = scn.nextInt();
+         int [] arr = new int[n];
+         int [] arr1 = new int [arr.length]; // New arr of same value arr1;
+
+        System.out.println("Enter Your arr value");
+        for (int i = 0; i <arr.length ; i++) {
+            arr[i] = scn.nextInt();
+        }
+
+        for (int i = 0; i < arr.length ; i++) {
+            int pos = arr[i];
+            arr1[pos] = i ;
+        }
+
+        System.out.println("New indexing value ");
+        for (int i = 0; i < arr1.length ; i++) {
+            System.out.print(arr1[i]+" ");
         }
 
 

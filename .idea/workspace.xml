@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec3f572-e8ae-4c00-a741-2a3dd51388ae" name="Changes" comment="git commit -m &quot;ArrayProblem&quot;">
-      <change afterPath="$PROJECT_DIR$/src/problem10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667974034999</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="git commit -m &quot;ArrayProblem&quot;">
+      <created>1668090744405</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668090744407</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
