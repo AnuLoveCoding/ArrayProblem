@@ -22,6 +22,7 @@ public class problem9 {
             }
 
             System.out.println();
+
         }
     }
 }
