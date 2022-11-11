@@ -29,26 +29,51 @@ public class problem9 {
         
 //        (Q.2) print 2D array in col by col;
         
-        int n = scn.nextInt();
-        int m = scn.nextInt();
-        
-        int [] [] col = new int[n][m];
+//        int n = scn.nextInt();
+//        int m = scn.nextInt();
+//
+//        int [] [] col = new int[n][m];
+//
+//        for (int i = 0; i < n ; i++) {
+//            for (int j = 0; j < m ; j++) {
+//                col[i][j] = scn.nextInt();
+//            }
+//        }
+//
+//
+//        for (int j = 0; j < m ; j++) {
+//            for (int i = 0; i < n ; i++) {
+//                System.out.print(col[i][j]+" ");
+//            }
+//            System.out.println();
+//        }
 
-        for (int i = 0; i < n ; i++) {
-            for (int j = 0; j < m ; j++) {
-                col[i][j] = scn.nextInt();
+//        (Q.3)  Write a program to input an integer N and a N*N matrix Mat from user
+//             and print the matrix in wave form (column wise)
+
+        System.out.println("Enter your 2D arr size");
+        int n = scn.nextInt();
+        int [][] arr = new  int[n][n];
+
+        System.out.println("Enter Your arr value");
+        for (int i = 0; i <n ; i++) {
+            for (int j = 0; j <n ; j++) {
+                arr[i] [j] = scn.nextInt();
             }
         }
 
-
-        for (int j = 0; j < m ; j++) {
-            for (int i = 0; i < n ; i++) {
-                System.out.print(col[i][j]+" ");
+        for (int j = 0; j <n ; j++) {
+            if(j%2==0){
+                for (int i = 0; i <n ; i++) {
+                    System.out.print(arr[i][j]+" ");
+                }
+            }else{
+                for (int i = n-1; i >=0 ; i--) {
+                    System.out.print(arr[i][j]+" ");
+                }
             }
             System.out.println();
         }
-
-
 
 
 

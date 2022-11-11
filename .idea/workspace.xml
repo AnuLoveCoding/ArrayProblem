@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec3f572-e8ae-4c00-a741-2a3dd51388ae" name="Changes" comment="git commit -m &quot;2D ArrayProblem&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problem9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +43,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.problem9">
-    <configuration name="pb6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pb6" />
+  <component name="RunManager" selected="Application.problem10">
+    <configuration name="problem10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem10" />
       <module name="ArrayProblem" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.problem10" />
         <item itemvalue="Application.problem9" />
         <item itemvalue="Application.problem8" />
         <item itemvalue="Application.problem11" />
         <item itemvalue="Application.problem7" />
-        <item itemvalue="Application.pb6" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668098906413</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="git commit -m &quot;2D ArrayProblem&quot;">
+      <created>1668100407048</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668100407048</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
