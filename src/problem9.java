@@ -51,7 +51,7 @@ public class problem9 {
 //        (Q.3)  Write a program to input an integer N and a N*N matrix Mat from user
 //             and print the matrix in wave form (column wise)
 
-        System.out.println("Enter your 2D arr size");
+      /*  System.out.println("Enter your 2D arr size");
         int n = scn.nextInt();
         int [][] arr = new  int[n][n];
 
@@ -73,8 +73,32 @@ public class problem9 {
                 }
             }
             System.out.println();
-        }
+        }  */
 
+//        (Q.4)  You are given an integer matrix mat and you have to print
+//        the elements of the matrix in wave form (row wise)
+            System.out.println("Enter your 2D arr size");
+            int n = scn.nextInt();
+            int [][] arr = new  int[n][n];
+
+            System.out.println("Enter Your arr value");
+            for (int i = 0; i <n ; i++) {
+                for (int j = 0; j <n ; j++) {
+                    arr[i] [j] = scn.nextInt();
+                }
+            }
+
+            for (int i = 0; i <n ; i++) {
+                if(i%2==0){
+                    for (int j = 0; j <n ; j++) {
+                        System.out.println(arr[i][j]+" ");
+                    }
+                }else{
+                    for (int j = n-1; j>=0 ; j--) {
+                        System.out.println(arr[i][j]+" ");
+                    }
+                }
+            }
 
 
 
