@@ -135,17 +135,18 @@ public class problem9 {
         System.out.println("Enter first Your arr value");
         for (int i = 0; i <n ; i++) {
             for (int j = 0; j <n ; j++) {
-                a[i] [j] = scn.nextInt();
+                a[i][j] = scn.nextInt();
             }
         }
 
         System.out.println("Enter second Your arr value");
-        for (int i = 0; i <n ; i++) {
-            for (int j = 0; j <n ; j++) {
-                a[i] [j] = scn.nextInt();
+        for (int i = 0; i< n ; i++) {
+            for (int j = 0; j< n ; j++) {
+                b[i][j] = scn.nextInt();
             }
         }
 
+        System.out.println("This 2D array add both first and second 2D array ");
         for (int i = 0; i <a.length ; i++) {
             for (int j = 0; j <b[0].length ; j++) {
                 c[i][j]=a[i][j]+b[i][j];
