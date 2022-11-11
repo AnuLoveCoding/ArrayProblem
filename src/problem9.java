@@ -77,7 +77,7 @@ public class problem9 {
 
 //        (Q.4)  You are given an integer matrix mat and you have to print
 //        the elements of the matrix in wave form (row wise)
-            System.out.println("Enter your 2D arr size");
+         /*   System.out.println("Enter your 2D arr size");
             int n = scn.nextInt();
             int [][] arr = new  int[n][n];
 
@@ -98,7 +98,61 @@ public class problem9 {
                         System.out.println(arr[i][j]+" ");
                     }
                 }
+            } */
+
+
+//        (Q.5)  You are given a 2D integer matrix A,
+//        return a 1D integer array containing row-wise sums of original matrix.
+
+     /*   System.out.println("Enter your 2D arr size");
+        int n = scn.nextInt();
+        int [][] arr = new  int[n][n];
+        int[] Single_array = new int[arr.length];
+
+        System.out.println("Enter Your arr value");
+        for (int i = 0; i <n ; i++) {
+            for (int j = 0; j <n ; j++) {
+                arr[i] [j] = scn.nextInt();
             }
+        }
+
+        for (int i = 0; i <arr.length ; i++) {
+            for (int j = 0; j <arr[0].length ; j++) {
+                Single_array[i] += arr[i][j];
+            }
+        }  */
+
+
+//        (Q.6) You are given two matrices A & B of same size,
+//        you have to return another matrix which is the sum of A and B.
+
+        System.out.println("Enter your 2D arr size");
+        int n = scn.nextInt();
+        int [][] a = new  int[n][n];
+        int[] [] b = new int[n][n];
+        int [][] c = new int[a.length][b[0].length];
+
+        System.out.println("Enter first Your arr value");
+        for (int i = 0; i <n ; i++) {
+            for (int j = 0; j <n ; j++) {
+                a[i] [j] = scn.nextInt();
+            }
+        }
+
+        System.out.println("Enter second Your arr value");
+        for (int i = 0; i <n ; i++) {
+            for (int j = 0; j <n ; j++) {
+                a[i] [j] = scn.nextInt();
+            }
+        }
+
+        for (int i = 0; i <a.length ; i++) {
+            for (int j = 0; j <b[0].length ; j++) {
+                c[i][j]=a[i][j]+b[i][j];
+                System.out.print(c[i][j]+" "); // for print new 2D array ;
+            }
+            System.out.println(); // this is for changing new line;
+        }
 
 
 
