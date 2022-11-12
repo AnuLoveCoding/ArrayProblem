@@ -126,7 +126,7 @@ public class problem9 {
 //        (Q.6) You are given two matrices A & B of same size,
 //        you have to return another matrix which is the sum of A and B.
 
-        System.out.println("Enter your 2D arr size");
+     /*   System.out.println("Enter your 2D arr size");
         int n = scn.nextInt();
         int [][] a = new  int[n][n];
         int[] [] b = new int[n][n];
@@ -153,7 +153,15 @@ public class problem9 {
                 System.out.print(c[i][j]+" "); // for print new 2D array ;
             }
             System.out.println(); // this is for changing new line;
-        }
+        }  */
+
+//        (Q.7) You are given two matrices A & B of same size,
+//        you have to return another matrix which is the sum of A and B.
+
+
+
+
+
 
 
 
