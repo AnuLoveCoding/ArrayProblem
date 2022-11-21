@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class problem10 {
-
     public static  int [] [] transpose_matrix(int[][]arr){
         int n = arr.length;
         int m = arr[0].length;
